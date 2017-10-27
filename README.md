@@ -31,3 +31,5 @@ key = User.encrypt_password("password", "salt")
 * `:length`     - a length in octets for the derived key. Defaults to 64;
 * `:digest`     - an hmac function to use as the pseudo-random function.
                   Defaults to `:sha512`;
+                  
+Original library [repository](https://github.com/scrogson/key_generator)
